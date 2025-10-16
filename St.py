@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Simple Chat App")
+st.title("Simple Chatbot")
 
 st.session_state.messages=[]
 
@@ -26,3 +26,4 @@ for msg in st.session_state.messages:
 
 
 	st.text(msg)
+
